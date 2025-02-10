@@ -22,7 +22,7 @@ function App() {
   const addTask = async () => {
     if (!taskTitle) return;
     try {
-      const response = await axios.post('http://localhost:5000/tasks', { title: taskTitle });
+      const response = await axios.post('https://to-do-list-eh7q.onrender.com', { title: taskTitle });
       setTasks([...tasks, response.data]);
       setTaskTitle('');
     } catch (error) {
@@ -38,6 +38,8 @@ function App() {
       console.error('Error toggling task completion:', error);
     }
   };
+
+  
 
   const deleteTask = async (id) => {
     if (!window.confirm('Are you sure you want to delete this task?')) return;

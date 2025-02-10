@@ -1,14 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-=======
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +7,6 @@
     "cra-template": "1.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -43,6 +32,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> ab0e3e0 (Initial commit)
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "html-webpack-plugin": "^5.6.3",
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   }
 }
